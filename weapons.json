@@ -185,7 +185,7 @@
           {
             "name": "Project Shield",
             "activation": "Quick",
-            "detail": "<div>Project a shield around yourself or an ally giving them resistance until the start of their next turn.</div>",
+            "detail": "<div>Project a shield around yourself or an ally within range giving them resistance until the start of their next turn.</div>",
             "pilot": false,
             "synergy_locations": [],
             "tech_attack": false,
@@ -216,26 +216,32 @@
     "mount": "Main",
     "type": "Rifle",
     "sp": 0,
-    "barrage": true,
-    "skirmish": true,
-    "damage": [
+    "profiles": [
       {
-        "type": "Energy",
-        "val": "1d6+1"
-      }
-    ],
-    "range": [
-      {
-        "type": "Line",
-        "val": 6
-      }
-    ],
-    "tags": [
-      {
-        "id": "tg_heat_self",
-        "name": "Heat {VAL} (Self)",
-        "description": "Immediately after using this weapon or system, the user takes {VAL} Heat.",
-        "val": 1
+        "name": "Variable Rod Rifle ",
+        "effect": "<div>This weapon also counts as a Nexus for the effects of Talents and Traits.</div>",
+        "barrage": true,
+        "skirmish": true,
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6+1"
+          }
+        ],
+        "range": [
+          {
+            "type": "Line",
+            "val": 6
+          }
+        ],
+        "tags": [
+          {
+            "id": "tg_heat_self",
+            "name": "Heat {VAL} (Self)",
+            "description": "Immediately after using this weapon or system, the user takes {VAL} Heat.",
+            "val": 2
+          }
+        ]
       }
     ]
   },

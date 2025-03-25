@@ -106,7 +106,7 @@
       "hp": 8,
       "evasion": 8,
       "edef": 10,
-      "heatcap": 5,
+      "heatcap": 6,
       "repcap": 3,
       "sensor_range": 15,
       "tech_attack": -1,
@@ -123,7 +123,7 @@
       {
         "name": "GUND ARM Smart Targeting Software ",
         "use": "",
-        "description": "<div><span>The Calibarn treats its LAUNCHER weapons as though they are also Nexi with Smart.</span></div>"
+        "description": "<div><span>The Calibarn treats its LAUNCHER weapons as though they are also Nexus with Smart.</span></div>"
       }
     ],
     "core_system": {
@@ -138,7 +138,7 @@
       "active_bonuses": [],
       "active_synergies": [],
       "passive_name": "PERMET Score",
-      "passive_effect": "<p><span>Gain the PERMET Score Die 1d3 starting at 0 and the Quick Action Increase PERMET Score, any turn you do not use this Quick Action your PERMET score reduces by 1:</span></p><p><span>Score 1: Gain +4 Evasion and +2 E-Defense, take 1 Heat at end of your turn.</span><br><span>Score 2: On attack you may immediately move 2 space in any direction, take 2 Heat at end of your turn.</span><br><span>Score 3: 1/round, the next attack you make deals an additional 4 AP Energy Damage, additionally all damage is converted to Energy, take 3 Heat at end of your turn.</span></p>",
+      "passive_effect": "<p><span>Gain the PERMET Score Die 1d3 starting at 0 and the Quick Action Increase PERMET Score, any turn you do not use this Quick Action your PERMET score reduces by 1:</span></p><p><span>Score 1: Gain +4 Evasion and +2 E-Defense, take 1 Heat at end of your turn.</span><br><span>Score 2: On attack you may immediately move 2 space in any direction, take 2 Heat at end of your turn.</span><br><span>Score 3: 1/round, the next attack you make ignores cover, additionally all damage is converted to Energy, take 3 Heat at end of your turn.</span></p>",
       "passive_actions": [
         {
           "name": "Increase Permit Score",
@@ -167,7 +167,7 @@
     },
     "specialty": false,
     "image_url": "https://i.imgur.com/J2VassQ.png",
-    "y_pos": "15"
+    "y_pos": 15
   },
   {
     "id": "a6f4ef89-1ac2-47d6-b8c1-6e9a8bdb15cd",

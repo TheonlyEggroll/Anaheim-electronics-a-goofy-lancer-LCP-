@@ -1,10 +1,10 @@
 [
   {
-    "id": "123_systems__n_i_t_r_o_system_",
+    "id": "c1187a96-1af5-4b67-ad34-5d00198cdd94",
     "name": " N_I_T_R_O System ",
     "source": "AE",
     "license": "MSN-001A1 Delta Plus",
-    "license_id": "123_frames_msn-001a1_delta_plus",
+    "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
     "license_level": 3,
     "effect": "<div></div>",
     "type": "System",
@@ -70,11 +70,11 @@
     ]
   },
   {
-    "id": "123_systems_bio-sensor",
+    "id": "ebea7f30-b396-408d-b3ab-c4958f14a991",
     "name": "Bio-Sensor",
     "source": "AE",
     "license": "MSN-001A1 Delta Plus",
-    "license_id": "123_frames_msn-001a1_delta_plus",
+    "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
     "license_level": 1,
     "effect": "<div>1/round, as a reaction, you may immediately move 2 spaces towards the closest enemy whenever a ranged or melee attack hits you. You may take 2 heat to increase this movement to 4 spaces.</div>",
     "type": "System",
@@ -89,23 +89,23 @@
     ]
   },
   {
-    "id": "123_systems__thermonuclear_ramjet_engines",
+    "id": "f2bad1ad-f1e5-44e8-adec-fd14cf5f6d9f",
     "name": " Thermonuclear ramjet engines",
     "source": "AE",
     "license": "MSN-001A1 Delta Plus",
-    "license_id": "123_frames_msn-001a1_delta_plus",
+    "license_id": "",
     "license_level": 2,
-    "effect": "<div><span>Gain a RPM Die a D6 starting at 0, every time you boost roll a d3 and add this number to the Die. As a free action you may reset this die to 0 and move spaces equal to the amount removed.</span></div><div></div>",
+    "effect": "<div>After you boost, you may roll 1d3 and gain X heat, where X is the number rolled. At the beginning of your next turn, as a protocol, you may move X spaces, where X is the number rolled</div>",
     "type": "System",
     "sp": "2",
     "description": "<div>Lore yap </div>"
   },
   {
-    "id": "123_systems_permet_painted_armor",
+    "id": "21b945f3-b706-4d79-8001-f6e931634579",
     "name": "Permet Painted Armor",
     "source": "AE",
     "license": " X-EX01 Gundam Calibarn",
-    "license_id": "123_frames__x-ex01_gundam_calibarn",
+    "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
     "license_level": 1,
     "effect": "<div>Reduce all Energy Damage taken by 2, additionally all AP Energy Damage taken loses AP.</div>",
     "type": "System",
@@ -113,22 +113,22 @@
     "description": ""
   },
   {
-    "id": "123_systems_ericht-class_nhp",
+    "id": "b31e8e45-3cc2-4d7c-92ba-93391cf02770",
     "name": "Ericht-Class NHP",
     "source": "AE",
     "license": " X-EX01 Gundam Calibarn",
-    "license_id": "123_frames__x-ex01_gundam_calibarn",
+    "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
     "license_level": 3,
     "type": "System",
     "sp": "3",
     "description": ""
   },
   {
-    "id": "123_systems_mirasoul_flight_unit",
+    "id": "080d1671-5079-4554-a010-434164f2f831",
     "name": "Mirasoul Flight Unit",
     "source": "AE",
     "license": " X-EX01 Gundam Calibarn",
-    "license_id": "123_frames__x-ex01_gundam_calibarn",
+    "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
     "license_level": 2,
     "effect": "<div>You may choose to count any and all of your movement as flying; however, you take Size +1 Heat at the end of any of your turns in which you fly this way. Additionally, make all Agility checks and saves at +1 Accuracy while Flying.</div>",
     "type": "System",
@@ -136,29 +136,29 @@
     "description": ""
   },
   {
-    "id": "123_systems_bit_on_form_system",
+    "id": "8b66949e-0086-48e9-a27d-58e635ccfd06",
     "name": "Bit on Form System",
     "source": "AE",
     "license": " X-EX01 Gundam Calibarn",
-    "license_id": "123_frames__x-ex01_gundam_calibarn",
+    "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
     "license_level": 3,
     "effect": "<div></div>",
     "type": "System",
-    "sp": "2",
+    "sp": "3",
     "description": "<div></div>",
     "tags": [
       {
         "id": "tg_limited",
         "name": "Limited {VAL}",
         "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
-        "val": 3
+        "val": 2
       }
     ],
     "actions": [
       {
         "name": "Activate Bit on Form System",
         "activation": "Protocol",
-        "detail": "<div>At the end of your turn, clear 1 heat and provide Zone of Soft Cover</div>",
+        "detail": "<div>At the end of your turn, clear 1 heat and create a Burst 1 zone of Soft Cover</div>",
         "pilot": false,
         "synergy_locations": [],
         "tech_attack": false,
