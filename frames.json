@@ -37,9 +37,9 @@
         "description": "<div>The Delta Plus may fly when it moves.</div>"
       },
       {
-        "name": "Unconventional thruster layout",
+        "name": "Unconventional Thruster Layout",
         "use": "",
-        "description": "<div>Delta Plus ignores the agility save when taking a <span>structure </span>or stress while flying.</div>"
+        "description": "<div>Delta Plus ignores the Agility save when taking a <span>structure </span>or stress while flying.</div>"
       }
     ],
     "core_system": {
@@ -53,11 +53,11 @@
       "active_actions": [],
       "active_bonuses": [],
       "active_synergies": [],
-      "passive_name": "Aerial hunter doctrine",
-      "passive_effect": "<p>Gain: Wave Rider mode Engage in quick action.</p>",
+      "passive_name": "Aerial Hunter Doctrine",
+      "passive_effect": "<p>Gain: the Wave Rider Mode Engage in quick action.</p>",
       "passive_actions": [
         {
-          "name": "Wave Rider mode engage",
+          "name": "Wave Rider Mode Engage",
           "activation": "Quick",
           "detail": "<p>Transform to Wave Rider mode from MS mode or vice versa, active only while you are flying</p><p>While in Wave Rider mode, you may 1/turn boost as a free action. Additionally, you do not trigger engagement.</p><p>If you get hit by a ranged or melee attack while in this form, as a reaction you may move up to your speed; if this movement puts you in cover, the attack automatically misses you. The Delta Plus reverts to mobile suit mode and lands after this resolves.<br><br>While in this mode, you must end your turn flying. If you get stunned or immobilized; transform back to MS mode and begin falling.</p>",
           "cost": 0,

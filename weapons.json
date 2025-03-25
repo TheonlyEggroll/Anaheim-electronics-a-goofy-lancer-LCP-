@@ -65,7 +65,7 @@
     "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
     "license_level": 1,
     "description": "<div>A pair of beam sabers stored in the front of the shield. Their emitters adopted a variable projection angle mechanism, allowing them to emit two beam sabers even while stored. In addition, they could function as beam guns in Wave Rider Mode. When transforming from Wave Rider Mode to Mobile Suit Mode, the Delta Plus could eject a beam saber from the shield and catch it, allowing it to quickly switch to close combat.</div>",
-    "effect": "<div></div>",
+    "effect": "<div>While flying the weapon uses the MSN Beam Saber (Flight) profile.</div>",
     "mount": "Main",
     "type": "Melee",
     "sp": "2",
@@ -92,7 +92,7 @@
             "id": "tg_heat_self",
             "name": "Heat {VAL} (Self)",
             "description": "Immediately after using this weapon or system, the user takes {VAL} Heat.",
-            "val": 2
+            "val": 1
           }
         ]
       },
@@ -109,7 +109,15 @@
         "range": [
           {
             "type": "Range",
-            "val": 6
+            "val": 8
+          }
+        ],
+        "tags": [
+          {
+            "id": "tg_heat_self",
+            "name": "Heat {VAL} (Self)",
+            "description": "Immediately after using this weapon or system, the user takes {VAL} Heat.",
+            "val": 1
           }
         ]
       }

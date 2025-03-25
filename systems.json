@@ -6,7 +6,7 @@
     "license": "MSN-001A1 Delta Plus",
     "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
     "license_level": 3,
-    "effect": "<div>Effect yapp </div>",
+    "effect": "<div></div>",
     "type": "System",
     "sp": "3",
     "description": "<div>The <strong>N_I_T_R_O</strong> (<strong>n</strong>ewtype <strong>i</strong>njection <strong>t</strong>race <strong>r</strong>eformed <strong>o</strong>ldtype) System was a Psycommu system that granted Newtype abilities to Oldtype pilots. The greatest feature of the system was that when active, it caused the affected unit's drive system to emit what appeared to be blue flames. The system was originally developed in U.C. 0087 by the Titans, to allow the Psycho Gundam to operate more smoothly. However, the early n_i_t_r_o test units were deeply flawed, \"burning through\" their pilots and reducing them to a vegetative state after a single use. In U.C. 0094, an improved version of the n_i_t_r_o System was installed on the MSN-001X Gundam Delta Kai. While this version no longer \"burned through\" its pilot, prolonged use would cause the pilot's personality to become more violent and aggressive.</div>",
@@ -20,13 +20,13 @@
         "id": "tg_limited",
         "name": "Limited {VAL}",
         "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
-        "val": 1
+        "val": 2
       },
       {
         "id": "tg_heat_self",
         "name": "Heat {VAL} (Self)",
         "description": "Immediately after using this weapon or system, the user takes {VAL} Heat.",
-        "val": 4
+        "val": 3
       }
     ],
     "actions": [
@@ -45,7 +45,7 @@
     "deployables": [
       {
         "name": "Funnel unit",
-        "type": "Drone ",
+        "type": "Drone",
         "detail": "<div>Funnel units</div>",
         "size": 0.5,
         "activation": "Quick",
@@ -76,7 +76,7 @@
     "license": "MSN-001A1 Delta Plus",
     "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
     "license_level": 1,
-    "effect": "<div>Once per round, as a reaction, you may immediately move 2 spaces towards the closest enemy whenever a ranged or melee attack hits you. You may take 2 heat to increase this movement to 4 spaces.</div>",
+    "effect": "<div>1/round, as a reaction, you may immediately move 2 spaces towards the closest enemy whenever a ranged or melee attack hits you. You may take 2 heat to increase this movement to 4 spaces.</div>",
     "type": "System",
     "sp": "2",
     "description": "<div>A feature included due to request by the Earth Federation Forces, the Bio-Sensor was a simplified Psycommu device that enhanced the responsiveness of the mobile suit by supporting the mobile suit's control system with the pilot's brainwaves. However, since the system had limited effectiveness when used by regular pilots, the intention behind this inclusion was unclear.</div>",
