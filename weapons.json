@@ -47,6 +47,11 @@
             "name": "Limited {VAL}",
             "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
             "val": 3
+          },
+          {
+            "id": "tg_accurate",
+            "name": "Accurate",
+            "description": "Attacks made with this weapon receive +1 Accuracy."
           }
         ]
       }
