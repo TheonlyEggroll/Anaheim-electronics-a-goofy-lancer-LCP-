@@ -106,14 +106,14 @@
     "license": " X-EX01 Gundam Calibarn",
     "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
     "license_level": 1,
-    "effect": "<div>Reduce all Energy Damage by 2, additionally all AP Energy Damage loses AP.</div>",
+    "effect": "<div>Reduce all Energy Damage taken by 2, additionally all AP Energy Damage taken loses AP.</div>",
     "type": "System",
     "sp": "2",
     "description": ""
   },
   {
     "id": "b31e8e45-3cc2-4d7c-92ba-93391cf02770",
-    "name": "Ericht NHP",
+    "name": "Ericht-Class NHP",
     "source": "AE",
     "license": " X-EX01 Gundam Calibarn",
     "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
@@ -129,7 +129,7 @@
     "license": " X-EX01 Gundam Calibarn",
     "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
     "license_level": 2,
-    "effect": "<div>You may choose to count any and all of your movement as flying; however, you take Size +1 Heat at the end of any of your turns in which you fly this way. Additionally, make all Agility checks and saves at +1 Accuracy</div>",
+    "effect": "<div>You may choose to count any and all of your movement as flying; however, you take Size +1 Heat at the end of any of your turns in which you fly this way. Additionally, make all Agility checks and saves at +1 Accuracy while Flying.</div>",
     "type": "System",
     "sp": "3",
     "description": ""

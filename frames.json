@@ -4,7 +4,7 @@
     "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
     "source": "AE",
     "license_level": 2,
-    "name": "MSN-001A1 Delta Plus TEST",
+    "name": "MSN-001A1 Delta Plus",
     "mechtype": [
       "Striker"
     ],
@@ -138,7 +138,7 @@
       "active_bonuses": [],
       "active_synergies": [],
       "passive_name": "PERMET Score",
-      "passive_effect": "<p><span>Gain the PERMET Score Die 1d3 starting at 0 and the Quick Action Increase PERMET Score, any turn you do not use this Quick Action your PERMET score reduces by 1: </span></p><p><span>Score 1: Gain +4 Evasion and +2 E-Defense, take 1 Heat at end of turn.</span><br><span>Score 2: On attack you may immediately move 2 space in any direction, take 2 Heat at end of turn.</span><br><span>Score 3: 1/round, the next attack you make deals an additional 4 AP Energy Damage, additionally all damage is converted to Energy, take 3 Heat at end of turn.</span></p>",
+      "passive_effect": "<p><span>Gain the PERMET Score Die 1d3 starting at 0 and the Quick Action Increase PERMET Score, any turn you do not use this Quick Action your PERMET score reduces by 1:</span></p><p><span>Score 1: Gain +4 Evasion and +2 E-Defense, take 1 Heat at end of your turn.</span><br><span>Score 2: On attack you may immediately move 2 space in any direction, take 2 Heat at end of your turn.</span><br><span>Score 3: 1/round, the next attack you make deals an additional 4 AP Energy Damage, additionally all damage is converted to Energy, take 3 Heat at end of your turn.</span></p>",
       "passive_actions": [
         {
           "name": "Increase Permit Score",

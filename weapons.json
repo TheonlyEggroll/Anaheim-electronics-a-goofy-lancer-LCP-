@@ -132,6 +132,18 @@
             "type": "Range",
             "val": 12
           }
+        ],
+        "tags": [
+          {
+            "id": "tg_accurate",
+            "name": "Accurate",
+            "description": "Attacks made with this weapon receive +1 Accuracy."
+          },
+          {
+            "id": "tg_smart",
+            "name": "Smart",
+            "description": "This weapon has self-guidance systems, self-propelled projectiles, or even nanorobotic ammunition. These systems are effective enough that its attacks can’t simply be dodged – they must be scrambled or jammed. Because of this, all attacks with this weapon – including melee and ranged attacks – use the target’s E-Defense instead of Evasion. Targets with no E-Defense count as having 8 E-Defense."
+          }
         ]
       },
       {
@@ -162,6 +174,13 @@
             "init": "",
             "trigger": ""
           }
+        ],
+        "tags": [
+          {
+            "id": "tg_smart",
+            "name": "Smart",
+            "description": "This weapon has self-guidance systems, self-propelled projectiles, or even nanorobotic ammunition. These systems are effective enough that its attacks can’t simply be dodged – they must be scrambled or jammed. Because of this, all attacks with this weapon – including melee and ranged attacks – use the target’s E-Defense instead of Evasion. Targets with no E-Defense count as having 8 E-Defense."
+          }
         ]
       }
     ]
@@ -172,7 +191,7 @@
     "source": "AE",
     "license": " X-EX01 Gundam Calibarn",
     "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
-    "license_level": 2,
+    "license_level": 1,
     "description": "<div></div>",
     "effect": "<div>This weapon also counts as a Nexus for the effects of Talents and Traits.</div>",
     "mount": "Main",
@@ -180,7 +199,8 @@
     "sp": 0,
     "profiles": [
       {
-        "name": "",
+        "name": "Variable Rod Rifle ",
+        "effect": "<div>This weapon also counts as a Nexus for the effects of Talents and Traits.</div>",
         "barrage": true,
         "skirmish": true,
         "damage": [
@@ -212,7 +232,7 @@
     "source": "AE",
     "license": " X-EX01 Gundam Calibarn",
     "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
-    "license_level": 1,
+    "license_level": 2,
     "description": "",
     "effect": "<div>This weapon may be used to attack as normal, or deployed as a Drone</div>",
     "mount": "Auxiliary",
@@ -220,7 +240,8 @@
     "sp": 0,
     "profiles": [
       {
-        "name": "",
+        "name": "Escutcheon ",
+        "effect": "<div>This weapon may be used to attack as normal, or deployed as a Drone</div>",
         "barrage": true,
         "skirmish": true,
         "damage": [
@@ -235,29 +256,16 @@
             "val": 5
           }
         ],
-        "actions": [
-          {
-            "name": "Deploy Escutcheon ",
-            "activation": "Free",
-            "detail": "<div>This nexus can be deployed to a free space within Sensors and line of sight as a free action, <span>where it releases a burst 1 area with the following effects:</span></div><div>Allied characters within the affected area gain soft cover, as does the drone.</div><div>Hostile characters take 1 AP energy damage when they start their turn in the affected area or enter it for the first time in a round.</div>",
-            "pilot": false,
-            "synergy_locations": [],
-            "tech_attack": false,
-            "frequency": "Unlimited",
-            "init": "",
-            "trigger": ""
-          }
-        ],
         "deployables": [
           {
             "name": "Escutcheon Drone",
             "type": "Drone",
             "detail": "<div>This nexus can be deployed to a free space within Sensors and line of sight as a free action, <span>where it releases a burst 1 area with the following effects:</span></div><div>Allied characters within the affected area gain soft cover, as does the drone.</div><div>Hostile characters take 1 AP energy damage when they start their turn in the affected area or enter it for the first time in a round.</div><div><span>You may recall or redeploy the nexus as a quick action. Until recalled or destroyed, it remains deployed until the end of the scene. If destroyed, it follows the rules for destroyed Drones and can’t be used until repaired</span></div>",
             "size": 0.5,
-            "activation": "",
+            "activation": "Free",
             "deactivation": "",
             "recall": "",
-            "redeploy": "",
+            "redeploy": "Quick",
             "instances": 1,
             "cost": 1,
             "armor": "0",
