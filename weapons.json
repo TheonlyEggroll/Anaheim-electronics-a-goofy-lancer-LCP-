@@ -4,7 +4,7 @@
     "name": "MSN Long Beam Magnum",
     "source": "AE",
     "license": "MSN-001A1 Delta Plus",
-    "license_id": "",
+    "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
     "license_level": 2,
     "description": "<div>A handheld firearm equipped with an energy condenser, it is common to the RX-0 series mobile suits. The power output of a single shot is the equivalent of 4 regular beam rifle shots at the expense of an entire E-pack. As such, a single shot is sufficient to destroy a mobile armor-class machine, and even stray particles from the fired shot have sufficient power to destroy a mobile suit, meaning a direct hit is not always required. The beams fired from the beam magnum are as hot as 10000°C and are surrounded by a field of plasma ranging from 3000°C to 7000°C—depending on how far away a particular area is from the actual beam. Five connected E-packs served as a single magazine for this weapon, and the magazine is also known as \"Magnum Bullets\". Up to two spare magazines can be stored on the Unicorn's rear skirt armor, meaning the beam magnum only has a maximum of 15 shots, causing it to have poor continuous battling capability. Additionally, the weapon can be too powerful for certain situations, limiting its use. When not in use, the beam magnum is stored on the backpack via a slot in the upper section.</div>",
     "effect": "<div>You may attack with this weapon without expending or requiring charges, and this weapon can be destroyed (due to critical damage or other effects) even if it has no charges remaining.</div>",
@@ -47,11 +47,6 @@
             "name": "Limited {VAL}",
             "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
             "val": 3
-          },
-          {
-            "id": "tg_accurate",
-            "name": "Accurate",
-            "description": "Attacks made with this weapon receive +1 Accuracy."
           }
         ]
       }
@@ -143,6 +138,18 @@
             "type": "Range",
             "val": 12
           }
+        ],
+        "tags": [
+          {
+            "id": "tg_accurate",
+            "name": "Accurate",
+            "description": "Attacks made with this weapon receive +1 Accuracy."
+          },
+          {
+            "id": "tg_smart",
+            "name": "Smart",
+            "description": "This weapon has self-guidance systems, self-propelled projectiles, or even nanorobotic ammunition. These systems are effective enough that its attacks can’t simply be dodged – they must be scrambled or jammed. Because of this, all attacks with this weapon – including melee and ranged attacks – use the target’s E-Defense instead of Evasion. Targets with no E-Defense count as having 8 E-Defense."
+          }
         ]
       },
       {
@@ -173,7 +180,114 @@
             "init": "",
             "trigger": ""
           }
+        ],
+        "tags": [
+          {
+            "id": "tg_smart",
+            "name": "Smart",
+            "description": "This weapon has self-guidance systems, self-propelled projectiles, or even nanorobotic ammunition. These systems are effective enough that its attacks can’t simply be dodged – they must be scrambled or jammed. Because of this, all attacks with this weapon – including melee and ranged attacks – use the target’s E-Defense instead of Evasion. Targets with no E-Defense count as having 8 E-Defense."
+          }
         ]
+      }
+    ]
+  },
+  {
+    "id": "c4320b59-3acd-40a3-a132-27995f5006a9",
+    "name": "Variable Rod Rifle ",
+    "source": "AE",
+    "license": " X-EX01 Gundam Calibarn",
+    "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
+    "license_level": 1,
+    "description": "<div></div>",
+    "effect": "<div>This weapon also counts as a Nexus for the effects of Talents and Traits.</div>",
+    "mount": "Main",
+    "type": "Rifle",
+    "sp": 0,
+    "barrage": true,
+    "skirmish": true,
+    "damage": [
+      {
+        "type": "Energy",
+        "val": "1d6+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Line",
+        "val": 6
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "name": "Heat {VAL} (Self)",
+        "description": "Immediately after using this weapon or system, the user takes {VAL} Heat.",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "66080b0f-1a2c-4fdd-9cd7-b13b0561f954",
+    "name": "Escutcheon ",
+    "source": "AE",
+    "license": " X-EX01 Gundam Calibarn",
+    "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
+    "license_level": 2,
+    "description": "",
+    "effect": "<div>This weapon may be used to attack as normal, or deployed as a Drone</div>",
+    "mount": "Auxiliary",
+    "type": "Nexus",
+    "sp": 0,
+    "barrage": true,
+    "skirmish": true,
+    "damage": [
+      {
+        "type": "Energy",
+        "val": "1d3+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Escutcheon Drone",
+        "type": "Drone",
+        "detail": "<div>This nexus can be deployed to a free space within Sensors and line of sight as a free action, <span>where it releases a burst 1 area with the following effects:</span></div><div>Allied characters within the affected area gain soft cover, as does the drone.</div><div>Hostile characters take 1 AP energy damage when they start their turn in the affected area or enter it for the first time in a round.</div><div><span>You may recall or redeploy the nexus as a quick action. Until recalled or destroyed, it remains deployed until the end of the scene. If destroyed, it follows the rules for destroyed Drones and can’t be used until repaired</span></div>",
+        "size": 0.5,
+        "activation": "Free",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "Quick",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "10",
+        "evasion": "12",
+        "edef": "8",
+        "heatcap": "",
+        "repcap": "",
+        "sensor_range": "",
+        "tech_attack": "",
+        "save": "",
+        "speed": "",
+        "pilot": false,
+        "mech": false
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_smart",
+        "name": "Smart",
+        "description": "This weapon has self-guidance systems, self-propelled projectiles, or even nanorobotic ammunition. These systems are effective enough that its attacks can’t simply be dodged – they must be scrambled or jammed. Because of this, all attacks with this weapon – including melee and ranged attacks – use the target’s E-Defense instead of Evasion. Targets with no E-Defense count as having 8 E-Defense."
+      },
+      {
+        "id": "tg_seeking",
+        "name": "Seeking",
+        "description": "This weapon has a limited form of self-guidance and internal propulsion, allowing it to follow complicated paths to its targets. As long as it’s possible to draw a path to its target, this weapon ignores cover and doesn’t require line of sight."
       }
     ]
   }
