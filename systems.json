@@ -93,11 +93,12 @@
     "name": " Thermonuclear ramjet engines",
     "source": "AE",
     "license": "MSN-001A1 Delta Plus",
-    "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
+    "license_id": "",
     "license_level": 2,
+    "effect": "<div>After you boost, you may roll 1d3 and gain X heat, where X is the number rolled. At the beginning of your next turn, as a protocol, you may move X spaces, where X is the number rolled</div>",
     "type": "System",
-    "sp": "",
-    "description": ""
+    "sp": "2",
+    "description": "<div>Lore yap </div>"
   },
   {
     "id": "21b945f3-b706-4d79-8001-f6e931634579",
