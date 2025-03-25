@@ -1,0 +1,172 @@
+[
+  {
+    "id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
+    "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
+    "source": "AE",
+    "license_level": 2,
+    "name": "MSN-001A1 Delta Plus",
+    "mechtype": [
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>The Delta Plus was a prototype Transformable Mobile Suit (TMS) developed by Anaheim Electronics. Based on the development plan of the MSN-001 Delta Gundam, the Delta Plus incorporated technologies from the Zeta series of mobile suits, as well as operating data from the MSN-00100 Hyaku Shiki. It was developed as an all-purpose attack machine, capable of operating both in space and in the atmosphere.</div>",
+    "mounts": [
+      "Heavy",
+      "Main"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 8,
+      "evasion": 10,
+      "edef": 8,
+      "heatcap": 6,
+      "repcap": 3,
+      "sensor_range": 12,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 6,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Integrated Flight Systems",
+        "use": "",
+        "description": "<div>The Delta Plus may fly when it moves.</div>"
+      },
+      {
+        "name": "Unconventional thruster layout",
+        "use": "",
+        "description": "<div>Delta Plus ignores the agility save when taking a <span>structure </span>or stress while flying.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Wave Rider SFS",
+      "active_name": "",
+      "active_effect": "",
+      "activation": "",
+      "description": "<p>The Delta Plus adopted a unique layout that concentrated all of its thrusters on the lower body and had no thrusters on its back. Its legs, which functioned as the main thrusters in Wave Rider Mode, were only equipped with minimal armor. This was because it prioritized mobility over durability, a design concept. The Wave Rider Mode's thrust was high enough to not only achieve atmospheric flight, but also serve as a Sub-Flight System for another mobile suit under 1G of gravity.</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "Aerial hunter doctrine",
+      "passive_effect": "<p>Gain: Wave Rider mode Engage in quick action.</p>",
+      "passive_actions": [
+        {
+          "name": "Wave Rider mode engage",
+          "activation": "Quick",
+          "detail": "<p>Transform to Wave Rider mode from MS mode or vice versa, active only while you are flying</p><p>While in Wave Rider mode, you may 1/turn boost as a free action. Additionally, you do not trigger engagement.</p><p>If you get hit by a ranged or melee attack while in this form, as a reaction you may move up to your speed; if this movement puts you in cover, the attack automatically misses you. The Delta Plus reverts to mobile suit mode and lands after this resolves.<br><br>While in this mode, you must end your turn flying. If you get stunned or immobilized; transform back to MS mode and begin falling.</p>",
+          "cost": 0,
+          "pilot": false,
+          "damage": [],
+          "range": [],
+          "synergy_locations": [],
+          "tech_attack": false,
+          "frequency": "Unlimited",
+          "init": "",
+          "trigger": ""
+        }
+      ],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "specialty": false,
+    "image_url": "https://i.imgur.com/RkQsh6b.png",
+    "y_pos": 11
+  },
+  {
+    "id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
+    "license_id": "9cba29a9-ef62-4eba-b2b1-9309e7de4ef5",
+    "source": "AE",
+    "license_level": 2,
+    "name": " X-EX01 Gundam Calibarn",
+    "mechtype": [
+      "Striker",
+      "Controller"
+    ],
+    "variant": "",
+    "description": "",
+    "mounts": [
+      "Flex"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 8,
+      "evasion": 8,
+      "edef": 10,
+      "heatcap": 5,
+      "repcap": 3,
+      "sensor_range": 15,
+      "tech_attack": -1,
+      "save": 11,
+      "speed": 5,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Hangar Queen",
+        "use": "",
+        "description": "<div>The Mercurial <span>must spend 2 repairs to repair a destroyed system during Rests instead of 1.</span></div>"
+      },
+      {
+        "name": "GUND ARM Smart Targeting Software ",
+        "use": "",
+        "description": "<div><span>The Calibarn treats its LAUNCHER weapons as though they are also Nexi with Smart.</span></div>"
+      }
+    ],
+    "core_system": {
+      "name": "GUND FORMAT ",
+      "active_name": "PERMET 8",
+      "active_effect": "<p>Until End of Turn Gain the positive Effect from all PERMET Levels. This Core is <strong>Efficient </strong>and will refund 1 Core Point at the end of any scene in which this action was used.</p>",
+      "activation": "Protocol",
+      "description": "",
+      "deactivation": "",
+      "use": null,
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "PERMET Score",
+      "passive_effect": "<p><span>Gain the PERMET Score Die 1d3 starting at 0 and the Quick Action Increase PERMET Score, any turn you do not use this Quick Action your PERMET score reduces by 1: </span></p><p><span>Score 1: Gain +4 Evasion and +2 E-Defense, take 1 Heat at end of turn.</span><br><span>Score 2: On attack you may immediately move 2 space in any direction, take 2 Heat at end of turn.</span><br><span>Score 3: 1/round, the next attack you make deals an additional 4 AP Energy Damage, additionally all damage is converted to Energy, take 3 Heat at end of turn.</span></p>",
+      "passive_actions": [
+        {
+          "name": "Increase Permit Score",
+          "activation": "Quick",
+          "detail": "<p>Increases Permit Score Level</p>",
+          "cost": 0,
+          "pilot": false,
+          "damage": [],
+          "range": [],
+          "synergy_locations": [],
+          "tech_attack": false,
+          "frequency": "Unlimited",
+          "init": "",
+          "trigger": ""
+        }
+      ],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [
+        "bea83baa-db3c-4008-bcc0-1bdfccef46a6"
+      ],
+      "special_equipment": [],
+      "tags": []
+    },
+    "specialty": false,
+    "image_url": "",
+    "y_pos": 0
+  }
+]

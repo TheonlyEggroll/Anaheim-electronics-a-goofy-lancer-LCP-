@@ -1,0 +1,40 @@
+[
+  {
+    "id": "74bbda91-f847-46d6-9ab5-f2f9a8f3707a",
+    "name": "Reactor pass-through channel ",
+    "source": "AE",
+    "license": "MSN-001A1 Delta Plus",
+    "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
+    "license_level": 3,
+    "effect": "<div>On attack with applied mount, you may add +8 damage, and the attack gains AP. After this attack resolves, the mount is destroyed. </div>",
+    "sp": "2",
+    "description": "<div>Lore yap</div>",
+    "allowed_types": [
+      "Rifle",
+      "CQB",
+      "Cannon",
+      "Launcher"
+    ],
+    "allowed_sizes": [
+      "Main",
+      "Heavy",
+      "Superheavy"
+    ],
+    "restricted_types": [
+      "Nexus",
+      "Melee"
+    ],
+    "restricted_sizes": [
+      "Auxiliary"
+    ],
+    "added_damage": [],
+    "added_range": [],
+    "added_tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ]
+  }
+]

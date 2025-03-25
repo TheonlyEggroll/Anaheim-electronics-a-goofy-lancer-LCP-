@@ -1,0 +1,169 @@
+[
+  {
+    "id": "2e30e76d-087e-4694-80ee-984397da2365",
+    "name": "MSN Long Beam Magnum",
+    "source": "AE",
+    "license": "MSN-001A1 Delta Plus",
+    "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
+    "license_level": 2,
+    "description": "<div>A handheld firearm equipped with an energy condenser, it is common to the RX-0 series mobile suits. The power output of a single shot is the equivalent of 4 regular beam rifle shots at the expense of an entire E-pack. As such, a single shot is sufficient to destroy a mobile armor-class machine, and even stray particles from the fired shot have sufficient power to destroy a mobile suit, meaning a direct hit is not always required. The beams fired from the beam magnum are as hot as 10000°C and are surrounded by a field of plasma ranging from 3000°C to 7000°C—depending on how far away a particular area is from the actual beam. Five connected E-packs served as a single magazine for this weapon, and the magazine is also known as \"Magnum Bullets\". Up to two spare magazines can be stored on the Unicorn's rear skirt armor, meaning the beam magnum only has a maximum of 15 shots, causing it to have poor continuous battling capability. Additionally, the weapon can be too powerful for certain situations, limiting its use. When not in use, the beam magnum is stored on the backpack via a slot in the upper section.</div>",
+    "effect": "<div>You may attack with this weapon without expending or requiring charges, and this weapon can be destroyed (due to critical damage or other effects) even if it has no charges remaining.</div>",
+    "mount": "Heavy",
+    "type": "Rifle",
+    "sp": 0,
+    "barrage": true,
+    "skirmish": true,
+    "on_hit": "<div>On attack consume a charge to gain AP </div>",
+    "damage": [
+      {
+        "type": "Energy",
+        "val": "2D3+4"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_overkill",
+        "name": "Overkill",
+        "description": "When rolling for damage with this weapon, any damage dice that land on a 1 cause the attacker to take 1 Heat, and are then rerolled. Additional 1s continue to trigger this effect."
+      },
+      {
+        "id": "tg_heat_self",
+        "name": "Heat {VAL} (Self)",
+        "description": "Immediately after using this weapon or system, the user takes {VAL} Heat.",
+        "val": 2
+      },
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 3
+      }
+    ]
+  },
+  {
+    "id": "f3d5abd1-7db1-4d4c-acb6-c8031abe1485",
+    "name": " MSN Beam Saber",
+    "source": "AE",
+    "license": "MSN-001A1 Delta Plus",
+    "license_id": "cd5bd8a8-9014-419d-ad52-1598d065c6a6",
+    "license_level": 1,
+    "description": "<div>A pair of beam sabers stored in the front of the shield. Their emitters adopted a variable projection angle mechanism, allowing them to emit two beam sabers even while stored. In addition, they could function as beam guns in Wave Rider Mode. When transforming from Wave Rider Mode to Mobile Suit Mode, the Delta Plus could eject a beam saber from the shield and catch it, allowing it to quickly switch to close combat.</div>",
+    "effect": "<div></div>",
+    "mount": "Main",
+    "type": "Melee",
+    "sp": "2",
+    "profiles": [
+      {
+        "name": " MSN Beam Saber",
+        "effect": "<div>While flying change this weapon profile to  MSN Beam Saber (Flight)</div>",
+        "barrage": true,
+        "skirmish": true,
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1D6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 2
+          }
+        ],
+        "tags": [
+          {
+            "id": "tg_heat_self",
+            "name": "Heat {VAL} (Self)",
+            "description": "Immediately after using this weapon or system, the user takes {VAL} Heat.",
+            "val": 2
+          }
+        ]
+      },
+      {
+        "name": " MSN Beam Saber (Flight)",
+        "barrage": true,
+        "skirmish": true,
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1D6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bea83baa-db3c-4008-bcc0-1bdfccef46a6",
+    "name": "GUND BIT",
+    "source": "",
+    "license": "",
+    "license_id": "",
+    "license_level": 1,
+    "description": "<div>For Queers only</div>",
+    "mount": "Auxiliary",
+    "type": "Nexus",
+    "sp": 0,
+    "profiles": [
+      {
+        "name": "Offensive Form",
+        "barrage": true,
+        "skirmish": true,
+        "on_crit": "<div>target becomes Impaired</div>",
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 12
+          }
+        ]
+      },
+      {
+        "name": "Defensive Form",
+        "barrage": true,
+        "skirmish": true,
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 6
+          }
+        ],
+        "actions": [
+          {
+            "name": "Project Shield",
+            "activation": "Quick",
+            "detail": "<div>Project a shield around yourself or an ally giving them resistance until the start of their next turn.</div>",
+            "pilot": false,
+            "synergy_locations": [],
+            "tech_attack": false,
+            "frequency": "Unlimited",
+            "init": "",
+            "trigger": ""
+          }
+        ]
+      }
+    ]
+  }
+]
